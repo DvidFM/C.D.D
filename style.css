@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    url: ('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,800&display=swap');
+    font-family: 'sega';
+    src: url('fonts/SEGA.TTF');
+    format: ('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul {
+    font-size: 1.5em;
+}
+body {
+    background-color: #3a2a2a;
+    background-image: url(imagens/correntes.png);
+    fill-opacity: inherit;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.direito {
+    float: left;
+}
+
+.esquerdo {
+    float: right;
+}
+
+.superior {
+    height: 130px;
+    width: 100%;
+    background-color: black;
+    border-bottom-style: groove;
+    margin-bottom: 320px;
+    position: relative;
+    border-color: #d76e7e;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+
+
+article>h1.intergrantes {
+    font-size: 100px;
+    text-align: center;
+    margin: 37px 0px;
+    padding: 154px 0px;
+    color: white;
+    font-family: 'sega';
+    font-weight: normal;
+    text-shadow: 8px 2px black;
+    background-image:linear-gradient(to center, pink, transparent);
+}
+
+
+.logo {
+    border-radius: 300px;
+    background-color: black;
+    height: 450px;
+    width: 450px;
+    border-style: groove;
+    border-color: #d76e7e;
+    display: inline-block;
+
+
+}
+
+#porco {
+    float: right;
+    margin: 25%;
+
+}
+
+h3 {
+    font-size: 1.3em;
+    color: white;
+}
+
+.titulo-logo {
+    font-family: 'sega', sans-serif;
+    text-align: right;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-shadow: 5px 5px black;
+    width: 0;
+    font-style: italic;
+    font-variant: petite-caps;
+    padding-top: 86px;
+    padding-left: 35px;
+
+}
+
+h4 {
+    color: white;
+}
+
+main{
+    max-width: 1800px;
+    min-width: none;
+}
+.fundo {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 700px;
+    filter: blur(55px);
+    box-shadow: -1px -1px 2px 100px black;
+
+
+}
+.fundo-logo2{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    box-shadow: 0px 0px 20px 7px #0a0909;
+    transition-duration: 1.5s;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 200px;
+}
+.fundo-logo2:hover {
+    background-color: transparent;
+    box-shadow: none;
+    transition-duration: 1.5s;
+
+}
+
+.fundo-logo2>.capitao:hover {
+    color: transparent;
+    transition-duration: 0.5s;
+    text-shadow: none;
+    
+}
+.fundo-logo {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px 7px #0a0909;
+    transition-duration: 1.5s;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.fundo-logo:hover {
+    background-color: transparent;
+    box-shadow: none;
+    transition-duration: 1.5s;
+
+}
+
+.fundo-logo>.capitao:hover {
+    color: transparent;
+    transition-duration: 0.5s;
+    text-shadow: none;
+    
+}
+
+.capitao{
+    width: 100%;
+    color: white;
+    font-size: 90px;
+    font-family: 'cursive';
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 4px 2px 0px grey;
+    padding:300px;
+    height: inherit;
+    transition-duration: 0.5s;
+    
+}
+
+.denver {
+    display: inline-flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 100px 0px black;
+
+
+
+}
+
+.listadenver {
+    padding: 15px;
+    width: 300px;
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+#titulodenver {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+
+#listadenver {
+    margin-left: 350px;
+    color: white;
+    list-style: initial;
+
+}
+
+.luis {
+    display: inline-flex;
+    width: 100%;
+    height: 700px;
+    box-shadow: 0px 0px 100px 0px black;
+    margin-top: 200px;
+
+}
+
+.listaluis {
+    text-align: left;
+    margin-top: 70px;
+    font-size: 15px;
+}
+
+.luisgay {
+    font-size: 1.5em;
+    background-color: white;
+    width: 256px;
+}
+
+.felipe {
+    display: inline-flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 100px 0px black;
+    margin-top: 200px;
+}
+
+.gamalho {
+    display: inline-flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 100px 0px black;
+    margin-top: 200px;
+}
+
+.pyke {
+
+    display: inline-flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 100px 0px black;
+    margin-top: 200px;
+}
+
+.pykecusao {
+    width: max-content;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    height: 200px;
+    border-top-style: groove;
+    border-color: #ff8d9f;
+    margin-top: 100px;
+    background-color: black;
+}
+
+.Sexo {
+    display: flex;
+    align-items: center;
+
+}
+
+#icone-servidor {
+    border-radius: 5px;
+    box-shadow: 1px 1px white;
+}
+
+#texto-servidor {
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    text-shadow: 3px 3px rgb(53, 49, 49);
+    font-weight: bolder;
+    text-decoration-line: none;
+}
+
+.pykegay {
+    font-size: x-large;
+    font-weight: bolder;
+}
